@@ -148,19 +148,19 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-           <!--注释         <execution>
+                   <execution>
                         <id>default-check</id>
                         <goals>
                             <goal>check</goal>
                         </goals>
                         <configuration>
-                            <rules>-->
+                            <rules>
                                 <!-- implementation is needed only for Maven 2 -->
-                             <!--      <rule implementation="org.jacoco.maven.RuleConfiguration">
+                                  <rule implementation="org.jacoco.maven.RuleConfiguration">
                                     <element>BUNDLE</element>
-                                    <limits>-->
+                                    <limits>
                                         <!-- implementation is needed only for Maven 2 -->
-                                       <!--  <limit implementation="org.jacoco.report.check.Limit">
+                                         <limit implementation="org.jacoco.report.check.Limit">
                                             <counter>COMPLEXITY</counter>
                                             <value>COVEREDRATIO</value>
                                             <minimum>0.80</minimum>
@@ -169,7 +169,7 @@
                                 </rule>
                             </rules>
                         </configuration>
-                    </execution>--> 
+                    </execution>
                 </executions>
             </plugin>
             <plugin>
