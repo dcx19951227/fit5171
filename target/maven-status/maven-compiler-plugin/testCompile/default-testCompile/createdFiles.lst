@@ -1,0 +1,5 @@
+rockets/dataaccess/neo4j/Neo4jDAOUnitTest.class
+rockets/model/RocketUnitTest.class
+rockets/web/AppSystemTest.class
+rockets/mining/RocketMinerUnitTest.class
+rockets/model/UserUnitTest.class
