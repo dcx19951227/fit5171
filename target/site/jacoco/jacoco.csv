@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+rockets,rockets.mining,RocketMiner,9,47,0,0,4,8,4,4,4,4
+rockets,rockets.web,App,272,321,19,5,55,99,19,24,7,24
+rockets,rockets.dataaccess.neo4j,Neo4jDAO,33,311,7,19,6,67,6,17,1,9
+rockets,rockets.model,Entity,0,17,0,0,0,8,0,5,0,5
+rockets,rockets.model,Launch.LaunchOutcome,24,0,0,0,2,0,1,0,1,0
+rockets,rockets.model,LaunchServiceProvider,41,66,11,1,9,17,8,9,2,9
+rockets,rockets.model,Rocket,85,115,5,7,12,29,11,15,6,14
+rockets,rockets.model,Launch,55,62,11,1,14,18,12,13,6,13
+rockets,rockets.model,User,39,64,2,4,3,18,5,11,3,10
